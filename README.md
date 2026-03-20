@@ -50,3 +50,5 @@ PUT /api/tasks/<id>/ → Update task
 DELETE /api/tasks/<id>/ → Delete task
 
 📊 Analytics
+
+GET /api/tasks/analytics/ → Task count by status
