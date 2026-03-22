@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 AUTH_USER_MODEL = "accounts.USER"
-ALLOWED_HOSTS = ['task-manager-api-fxf4.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
 import os
 import dj_database_url
 STATIC_URL = '/static/'
