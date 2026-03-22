@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 AUTH_USER_MODEL = "accounts.USER"
 ALLOWED_HOSTS = ['*']
+
+
 import os
 import dj_database_url
 STATIC_URL = '/static/'
